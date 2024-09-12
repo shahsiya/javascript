@@ -1,13 +1,20 @@
-// Порядок операторов
-const isSuited = 100-10 > 90-5 ;
-console.log(isSuited);
-//100-10 (12 приоритет)>(10 приоритет) 90-5 (12 приоритет)реальная таблицы отличается на одну единицу
-// ссылка на таблицу https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_precedence
-const a = (6+10)/2 ;
-console.log(a) ;
+// типы данных
+let a = 5 ;
+let b =5.6 ;
+console.log(typeof a) ;
+console.log(typeof b) ;
+a= 'string' ;
+console.log(typeof a) ;
+e = 'string' ;
+console.log(typeof e) ;
+let isAdmin = a >10 ;
+console.log(typeof isAdmin) ;
+let c =undefined ;
+console.log(typeof c) ;
+c= 5 ;
+console.log(typeof c) ;
+let d = null ;
+console.log(typeof d) ;
+//обращаться к уроку 15 типы данных
 
-let b;
-let c ;
-b=c=100+50 ;
-console.log(b) ;
-console.log(c) ;
+
