@@ -1,9 +1,11 @@
-let day = 11 ;
+let day = 11-2  ;
 const time = 40 ;
-let isGunu= 5;
 let isSaati =5 ;
-const maas = 80;
-day = -2 ;
+let maas = 80;
+day = day*isSaati ;
 console.log(day) ;
+maas = maas*time ;
+console.log(day>time) ;
+console.log(maas) ;
 
 
