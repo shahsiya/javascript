@@ -1,12 +1,13 @@
-const projectName = 'magaza sitesi ';
-const price = 2000;
-const author = ' Emrah Karabas ';
-const template = author + price + ' $ ' + projectName + 'siparis etti';
-console.log(template);
-const temlate2 = `${author}  ${price}$ ${projectName} siparis etti`;
-console.log(temlate2);
-const template3 = 'proje \n' + 'fiyati ' + price + '$';
-console.log(template3);
-const template4 = `proje
-fiyati ${price}$`;
-console.log(template4);
+const age = '18';
+console.log(Number ( age )+5);
+console.log(age *3);
+const userName = 'Vasya' ;
+console.log(userName +5);
+console.log(Number (userName)+5);
+console.log(typeof NaN);
+console.log(String (4) +7);
+console.log(Boolean ('') + 10);
+console.log(true +2);
+const a = 2+ '10';
+console.log(a-10);// смотреть раздел 4 урок 18 преобразование типов
+
