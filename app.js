@@ -1,11 +1,12 @@
-const deposit = 12000;
-const rate =0.07;
-const depositLenght =24;
-const houseCost = 13500;
-const res = deposit * (1+ rate /12)**24;
-if (res> houseCost){
-	console.log(`Можем купить. Остаток ${res - houseCost}`);
+const secretNumber  = '7';
+if (Number(secretNumber) ===7){
+console.log('угадал строго');
 }
-else {
-	console.log('Купить не сможем  (((')
+if (secretNumber==7){
+	console.log('угадал не строго');
 }
+const q= Number(prompt('введите число'));
+
+if (q===7){
+	console.log('!');
+}//===строгое равно == не строгое равно использовать лучше строгое равно
