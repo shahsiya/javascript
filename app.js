@@ -1,6 +1,6 @@
-const bmwX3 = 100000;
-const fordFokus = 10000;
-const buget =200000;
-let message =buget> bmwX3?'bmw ':buget> fordFokus?'ford':'velosiped';
-
-console.log(`${message}'almak istiyorum'`);
+const cevab ='22';
+const cevab2 = '-8';
+const cevab3 = 'robot degilim';
+const q =(prompt('сколько будет 7+ или - 15'));
+let message = q===cevab? 'evet' : q===cevab2? 'evet' : q===cevab3? 'evet' :'robotsunuz';
+console.log(message);
