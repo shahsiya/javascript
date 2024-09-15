@@ -1,15 +1,18 @@
-const isAdmin =true;
-const canWrite = true;
-console.log(`sistemny file ${isAdmin && canWrite}`);
-console.log(`file ${isAdmin || canWrite}`);
-console.log(`inver prava admin ${ !isAdmin }`);
+console.log('vasya' || 'oleg');
+console.log(false || 'oleg');
+console.log('vasya' || false);
+console.log(false || false);//при или всегда выводит первый оперант true
 
-const isEdited = true;
-const isSuperAdmin = true;
-console.log(`sistemny file red ${isAdmin && canWrite && (!isEdited ||isSuperAdmin )}`);
-let a =22;
-if (a=== -8 || a ===22){
-	console.log(true);	
-}else {
-		console.log(false);
-	}
+console.log('vasya' && 'oleg');
+console.log(false && 'oleg');// при или всегда будет выводить второй оперант если первый является true и всегда будет false если одно из выражений false
+console.log('vasya' && false);
+console.log(false && false);
+
+
+let a= 'marina';
+const username =a || 'petya';
+console.log(username);
+
+const isAdmin =true;
+const filename =isAdmin && 'file mp.4';
+console.log(filename);
