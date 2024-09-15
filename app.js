@@ -1,6 +1,15 @@
-const cevab ='22';
-const cevab2 = '-8';
-const cevab3 = 'robot degilim';
-const q =(prompt('сколько будет 7+ или - 15'));
-let message = q===cevab? 'evet' : q===cevab2? 'evet' : q===cevab3? 'evet' :'robotsunuz';
-console.log(message);
+const isAdmin =true;
+const canWrite = true;
+console.log(`sistemny file ${isAdmin && canWrite}`);
+console.log(`file ${isAdmin || canWrite}`);
+console.log(`inver prava admin ${ !isAdmin }`);
+
+const isEdited = true;
+const isSuperAdmin = true;
+console.log(`sistemny file red ${isAdmin && canWrite && (!isEdited ||isSuperAdmin )}`);
+let a =22;
+if (a=== -8 || a ===22){
+	console.log(true);	
+}else {
+		console.log(false);
+	}
