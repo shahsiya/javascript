@@ -1,9 +1,10 @@
-function powerOfTwo (num) {
-	return num*num;//разница между ними что верхнее написание функции со всплытием консоль можно писать и до функции а во втором случае обязательно нужно объявлять константу а посде выводить в консоль иначе работать не будет
-	
-}
-console.log(powerOfTwo(5));
-const poft = function (num){
+function powerTwo (num){
+	//console.log(num);
 	return num*num;
 }
-console.log(poft (6));
+console.log(powerTwo(5));
+const poft = num=>{num*num
+	console.log(num);
+	return num*num//для коротких записей
+};
+console.log(poft(6));
