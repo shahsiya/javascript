@@ -1,12 +1,9 @@
-function logName (name,surname){
-	console.log(`${name} ${surname}`);
+function powerOfTwo (num) {
+	return num*num;//разница между ними что верхнее написание функции со всплытием консоль можно писать и до функции а во втором случае обязательно нужно объявлять константу а посде выводить в консоль иначе работать не будет
+	
 }
- logName ('anton','larichev');
-function depositSumm (depositusd,ay,faiz){
-const summ =depositusd*(1+faiz/12)**ay;
-return summ;
+console.log(powerOfTwo(5));
+const poft = function (num){
+	return num*num;
 }
-const cevab1=depositSumm(1000,24,0.12);
-//console.log(cevab1);
-const cevab2=depositSumm(1000,48,0.10);
-console.log(cevab1,cevab2);
+console.log(poft (6));
