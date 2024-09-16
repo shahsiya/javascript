@@ -1,2 +1,6 @@
-const toPowerArrow =(num, power)=>num**power;
-console.log(toPowerArrow(2,3));
+function toPower (num=2,power=3){
+	const res =num**power;
+	return res;
+}
+console.log(toPower(2,3));
+console.log(toPower(2));
