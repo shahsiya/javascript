@@ -1,6 +1,9 @@
-function toPower (num=2,power=3){
-	const res =num**power;
-	return res;
+function canAccessWebsite(yas){
+	if (yas <18){
+		return 'hayir';
+	}
+	return 'evet';
 }
-console.log(toPower(2,3));
-console.log(toPower(2));
+console.log(canAccessWebsite(17));
+const canAccessWebsite2 = yas=>yas<18?'hayir':'evet';
+console.log(canAccessWebsite2(18));
