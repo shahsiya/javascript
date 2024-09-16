@@ -1,6 +1,12 @@
-const musteriBalanse = 10;
-const musteriBonus = 120;
-const isBanned = false;
-const isExisd = true;
-const isSelling = true;
-console.log(`${ musteriBalanse>1000|| musteriBonus>100&&isExisd && isSelling &&!isBanned?'alabilirsiniz':'alamazsiniz' }`);
+function logName (name,surname){
+	console.log(`${name} ${surname}`);
+}
+ logName ('anton','larichev');
+function depositSumm (depositusd,ay,faiz){
+const summ =depositusd*(1+faiz/12)**ay;
+return summ;
+}
+const cevab1=depositSumm(1000,24,0.12);
+//console.log(cevab1);
+const cevab2=depositSumm(1000,48,0.10);
+console.log(cevab1,cevab2);
