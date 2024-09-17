@@ -1,21 +1,15 @@
-//let yas =25;
-//const is = false;
-//const kredimac = 1500;
-//const kredimac2 = 100;
-//const kredimacis = 500;
- //const kredimac3 = yas>24?kredimac+kredimacis:kredimac+kredimac2;
-function inceleme1(yas,is=false){
-switch (true) {
-	case yas>24&&is:
-		return 500;
-		case yas>24:
-			return 100;
-			default:
-				return 0;}
-} 
+const role1 ='admin';
+const role2 ='user';
+const role3 ='superuser';
+const roles = ['admin','user','superuser'];
+const userInfo =['Anya,25'];
+console.log(roles);
+console.log(roles [0]);
+console.log(roles.length);
+console.log(roles [roles.length-1]);
+console.log(roles.at(0));
+console.log(roles.at(-1));
+const userAge = [2040 -2022,10>0?5:0];
+console.log(userAge);
 
-function inceleme(yas,para,mac,is=false){
-const kredi = inceleme1(yas,is);
-return mac<=para+kredi;
-}
-console.log(inceleme(25,1900,2000))  ;
+
